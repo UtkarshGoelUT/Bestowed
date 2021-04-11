@@ -7,6 +7,7 @@ import { userContext } from "../../../context/userContext";
 import { firebase, database } from "../../../firebase/firebase";
 import axios from "axios";
 
+
 const NavbarComponent = () => {
 	const history = useHistory();
 	const [ngoName, setNgoName] = useState("");
@@ -131,7 +132,7 @@ const NavbarComponent = () => {
 						<img
 							style={{ height: "30px", marginRight:"10px" }}
 							
-							src="https://www.flaticon.com/svg/vstatic/svg/328/328032.svg?token=exp=1618124173~hmac=0ed60bed02d58850b007bba8e7cedecd"
+							src="https://eastceylon.com/images/2021/04/11/donation-1.png"
 						/>{"  "}
 						<strong>Bestowed</strong>
 					</Navbar.Brand>
