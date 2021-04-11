@@ -140,9 +140,6 @@ const Donation = (props) => {
             config: donateForm[key]
         })
     }
-    if (userContext.name) {
-        localStorage.setItem('username', userContext.name);
-    }
 
     let form = (
         <div>

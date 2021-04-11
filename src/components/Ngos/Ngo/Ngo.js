@@ -89,7 +89,7 @@ const Ngo = (props) => {
 								<hr></hr>
 								<Card.Text>
 									<p>{description}</p>
-									<div>{donations}</div>
+									<div><span style={{fontSize: "large", fontWeight: "500"}}>Donation Items:</span> {donations}</div>
 								</Card.Text>
 							</Card.Body>
 						</Card>

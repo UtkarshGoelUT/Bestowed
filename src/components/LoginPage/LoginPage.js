@@ -14,7 +14,9 @@ const LoginPage = () => {
 	const history = useHistory();
 
 	const startLogin = () => {
-		return () => firebase.auth().signInWithPopup(googleProvider);
+		return () => firebase.auth().signInWithPopup(googleProvider).then((res) => {
+			localStorage.setItem('username', res.user.displayName);
+		});
 	};
 
 	return (

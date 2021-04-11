@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 class Cards extends Component {
 	render() {
-		console.log(this.props.donationItems);
 		let items;
 		if (this.props.donationItems) {
 			items = this.props.donationItems.map((el, id) => {
